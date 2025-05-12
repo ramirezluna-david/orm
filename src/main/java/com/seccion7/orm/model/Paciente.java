@@ -36,7 +36,7 @@ public class Paciente {
     private String apellido;
 
     @Column(nullable = false)
-    private LocalDate fNacimiento;
+    private LocalDate fecha_nacimiento;
 
     @Column(length = 250, nullable = false)
     private String correo;
